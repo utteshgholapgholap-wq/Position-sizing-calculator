@@ -15,4 +15,20 @@ A Python script designed for precise risk management in stock trading. It automa
 ## Installation
 No external libraries are required. Simply clone the repository and run the Python script natively.
 
+## Formula
+Position Size = Maximum Risk Amount / Risk Per Share
+
+## Example
+Example
+
+Input:
+Account Size = ₹10,000
+Risk = 1.5%
+Entry = ₹210
+Stop Loss = ₹208
+
+Output:
+Shares = 47
+Max Loss = ₹150
+
 ```bash
