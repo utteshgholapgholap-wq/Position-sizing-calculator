@@ -31,4 +31,12 @@ Output:
 Shares = 47
 Max Loss = ₹150
 
+## Future Improvements
+Short selling support
+ATR-based stop losses
+Kelly Criterion
+GUI dashboard
+Streamlit app
+Portfolio risk aggregation
+
 ```bash
