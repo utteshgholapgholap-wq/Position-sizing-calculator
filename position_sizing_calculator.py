@@ -29,15 +29,13 @@ def calculate_position_size(account_size, risk_percentage, entry_price, stop_los
   return {
       "Shares" : int(shares_to_buy),
       "Total_Investments" : round(total_cost, 2),
-      "Max_risk_loss" : round(max_risk_loss, 2)
-  }
+      "Max_risk_loss" : round(max_risk_loss, 2)}
 """ Consider a scenario where we are having trade in TATA Steel with an entry price 210 Rs and stop loss of 208 Rs and if we have an account of 10000 Rs and max stop loss of 1.5 %"""
 result = calculate_position_size(
   account_size = 10000,
   risk_percentage = 1.5,
   entry_price = 210,
-  stop_loss_price = 208
-)
+  stop_loss_price = 208)
 
 print("-----Risk Management-----")
 
